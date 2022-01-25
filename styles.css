@@ -1,7 +1,10 @@
  *{
    padding: 0;
    margin: 0;
+   box-sizing: border-box;
  }
+ 
+  
  .styleul{
     background-color: cadetblue;
     margin: 0;
@@ -16,7 +19,7 @@ nav li a {
     text-decoration: none;
     color: white;
     padding: 15px 15px;
-    margin-left: 150px;
+    margin-left: 80px;
     line-height: 45px;
     font-weight: 600;
     text-transform: uppercase;   
@@ -24,14 +27,15 @@ nav li a {
 nav li a:hover{
     background-color: coral;
 }
-.container1{
-  background-color:burlywood;
+.container{
+  background-color: #f2f2fc;
+ background-image: url("");
   padding-left: 20px;
 }
 
 .headline,
 h1 {
-  color: rgb(118, 147, 148);
+  color:cadetblue;
   font-family: "Crete Round", serif;
   font-size: 56px;
   line-height: 64px;
@@ -46,13 +50,15 @@ h4 {
   font-weight: bold;
   line-height: 32px;
   font-style: normal;
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
 .headline,
 h6 {
   color: #504e70;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: " sans-serif";
   font-style: normal;
   font-weight: normal;
   justify-content: center;
@@ -60,20 +66,32 @@ h6 {
 
 .col-40{
   float:left;
+  
  };
     
  .col-60{
    float: right;
+   
+   
+   
  } 
    .introimg{
      height: 500px;
-     margin-left: 200px;
-     margin-top: 50px;
+     
+     
+     margin-bottom: 150px;
+     
+     
+
+     
    }
    .row{
      display: flex;
+     text-align: center;
    }
-
+body{
+  background-color: #f2f2fc;  
+}
 .about .section-title{
   font-size: 24px;
   margin-bottom: 20px;
@@ -135,12 +153,7 @@ color: cornflowerblue;}
           color:green;
           
       }
-      .about .about-content .skills {
-        
-        
-      width: 90%;
-        }
-        
+
       
 
       .about .about-content .personal-info .buttons .btn:hover{
@@ -192,17 +205,8 @@ color: cornflowerblue;}
         margin-bottom: 12px;
         color: #504370;
       }
-      .about .about-content .timeline .timeline-date .fa{
-        margin-right: 5px;
-      }
-      .about .about-content .timeline .circle-dot{
-        position: absolute;
-        left: 0;
-        top: 0;
-        height: 15px;
-        width: 15px;
-        border-radius: 50%;
-      }
+
+
       .about .about-content .timeline .timeline-title{
         font-weight: 700;
         font-size: 18px;
@@ -215,10 +219,11 @@ color: cornflowerblue;}
         line-height: 25px;
         color: #504e70;
         margin: 0;
-      }
+        font-family: monospace;}
+
       .project .container{
         padding-bottom: 40px;
-        background-color:cornsilk;
+        
         margin: 15px;
       }
       .project .section-title{
@@ -254,9 +259,7 @@ color: cornflowerblue;}
         width: 100%;
         display: block;}
 
-        .skill .container{
-          padding-bottom: 40px;
-      }
+        
       
       
 
@@ -296,19 +299,24 @@ color: cornflowerblue;}
           }
           
           .flexbox >div {
-            margin: 8px;
+            margin:15px;
             padding: 5px;
             border: 1px solid cadetblue;
             margin-bottom: 30px;
-            background-color: blanchedalmond;
+            background-color:  #fdf9ff;
             border-radius: 10px;
             text-align: center;
             padding: 30px 15px;
+            width: 500px;
+            height: 300px;
           }
           .centre p{
-            font-size: 16px;
+            font-size: 18px;
             line-height: 25px;
-            color: cadetblue;
+            color: #302e4d;
+            font-family: monospace;
+            justify-content: left;
+            
         
           }
           .centre h4{
