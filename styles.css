@@ -15,7 +15,7 @@ nav li{
 float: left;}
 
 nav li a {
-    display: block;
+    display:inline-block ;
     text-decoration: none;
     color: white;
     padding: 15px 15px;
@@ -66,19 +66,15 @@ h6 {
 
 
    .introimg{
-     height: 500px;
+     height: 200px;
      
      
-     margin-bottom: 150px;
      
      
+   }
 
      
-   }
-   .row{
-     display: flex;
-     text-align: center;
-   }
+  
 body{
   background-color: #f2f2fc;  
 }
